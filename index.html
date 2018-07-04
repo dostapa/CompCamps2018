@@ -1,44 +1,57 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Home</title>
-    <link rel="stylesheet" href="css/styles.css"/>
-<link href="https://fonts.googleapis.com/css?family=Karla|Patua+One" rel="stylesheet">
-  <body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Home</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css?family=Karla|Patua+One" rel="stylesheet">
+
+  <body class="gradient">
+
     <div class="dropdown">
-   <button onclick="myFunction()" class="dropbtn">Menu</button>
-   <div id="myDropdown" class="dropdown-content">
-     <a href="index.html">Home</a>
-     <a href="project.html">Projects</a>
-     <a href="https://compcamps.com">CompCamps</a>
-   </div>
- </div>
-    <img class="center" src="images/brett.jpg" alt="Brett Mays"/>
-    <h1 class="center">hello how do i make website</h1>
-    <h2 class="center">wozers</h2>
-    <p >the dog has not died</p>
+      <button onclick="myFunction()" class="dropbtn">Menu</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="index.html">Home </a>
+        <a href="project.html">Projects</a>
+        <a href="https://compcamps.com">CompCamps</a>
+
+      </div>
+    </div>
+    <h1 class="center"> <strong><font size="96">DONATE ME COINS</font></strong> </h1>
+    <h3 class="center">UTpxBaB1lINdpKZEXwgIfXnkfbBZ7jV3GPNU/m8JUnhw8lftbEaqgm+s/770yet49hCovj6avaqjm2obmZH54w==</h3>
+    <p>the dog has not died</p>
     <h1> days since last incident: 2 </h1>
-    </body>
-  </head>
+    <form>
+  <fieldset>
+    <legend>Enter your credit card info</legend>
+    <input type="text" name="fname">
+    <button>Ok</button>
+  </fieldset>
+</form>
+
+  </body>
+
+</head>
+
 </html>
 
 <script>
-function myFunction() {
+  function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
-}
+  }
 
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
 
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
       }
     }
   }
-}
 </script>
