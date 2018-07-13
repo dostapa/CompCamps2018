@@ -6,7 +6,7 @@
 }
 .right {
   float: right;
-  
+
 }
 .left {
   text-align: right;
@@ -18,7 +18,7 @@
   to{opacity:1;}
 }
 body {
-  background-image: linear-gradient(45deg, #5CAFBF ,#5CAF6f);
+  background-image: linear-gradient(45deg, #3090C7 ,#FF1493	);
 height: 1080px;
 }
 
